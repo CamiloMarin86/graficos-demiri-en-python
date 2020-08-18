@@ -13,7 +13,7 @@ model.cuts = ConstraintList()
 mdl=model.create_instance()
 SolverFactory('glpk').solve(mdl)
 
-#ENSAYO 2
+#ENSAYO  2 para diferenciar
 for i in range(5):
     expr = 0
     for j in mdl.x:
