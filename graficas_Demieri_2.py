@@ -1,7 +1,7 @@
 #%%
 import pandas as pd
 import numpy as np 
-from matplotlib import pyplot as plt# %%# %%
+from matplotlib import pyplot as plt
 import pandas_bokeh
 from bokeh.plotting import output_file, output_notebook
 #pd.set_option('plotting.backend', 'pandas_bokeh')
@@ -97,9 +97,6 @@ for i in df_despachos_Error.generador.unique().tolist()[:]:
 
 
 # %%
-#df_MCs_Error = df_MCs_Error.set_index('Simulaciones')
-#f_MCs_Error.index=100*df_MCsErr.index
-
 df_MCs_Error.plot_bokeh.line(
     figsize = (1500,300),
     #xticks= df['Porcentaje _de_ Error'].tolist(),
