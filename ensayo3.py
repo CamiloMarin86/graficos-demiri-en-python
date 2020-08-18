@@ -13,7 +13,7 @@ model.cuts = ConstraintList()
 mdl=model.create_instance()
 SolverFactory('glpk').solve(mdl)
 
-#ENSAYO 1
+#ENSAYO 2
 for i in range(5):
     expr = 0
     for j in mdl.x:
